@@ -29,7 +29,7 @@ The dependencies should now be in the local node_modules folder.
 
 User answers questions related to trucks. Data are stocked in friends.js file. At the end the user can find a match and see who like the same trucks
 
-![](/assets/img/burger2.png)
+![](/assets/img/Burgers.gif)
 
 
 ## Technologies used ##
