@@ -5,8 +5,10 @@ var mysql = require('mysql');
 var connection;
 
 if (process.env.JAWSDB_URL) {
-	// DB is JawsDB on Heroku
-	connection = mysql.createConnection(process.env.JAWSDB_URL);
+    // DB is JawsDB on Heroku
+    var PORT = process.env.PORT || 3000;
+var app = express();
+	// connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
 	// DB is local on localhost
 	connection = mysql.createConnection({
