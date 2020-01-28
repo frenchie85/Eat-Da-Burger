@@ -1,85 +1,94 @@
 html {
-    background-color: rgb(4, 53, 117);
+  background-color: rgb(4, 53, 117);
 }
 
 body {
-    width: 75%;
-   margin: 0 auto; 
-
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
-   background-color: white;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: white;
 }
 
 h1 {
-    text-align: center;
-    font-family: 'Fontdiner Swanky', cursive;
-    font-size: 65px;
-    margin: 50px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 65px;
+  margin: 50px;
 }
 
+h2{
+    color:  rgb(4, 53, 117);
+}
 .burgerAvailable {
-    font-family: 'Crafty Girls', cursive;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
 
-    border-radius: 25px;
-    width: 100%;
-    margin: 10px;
-    padding: 10px;
-    background-color: #96cc9e;
-    border: none;
+  border-radius: 25px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #96cc9e;
+  border: none;
 }
 
 .burgerAvailable:hover {
-    background-color: #065a12;
+  background-color: #065a12;
 }
 
 .burgerEaten {
-    font-family: 'Crafty Girls', cursive;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
 
-    border-radius: 25px;
-    margin: 10px;
-    padding: 10px;
-    color: white;
-    background-color: #c53d25;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  background-color: #c53d25;
 }
 
 h2 {
-     text-align: center;
-    font-family: 'Fontdiner Swanky', cursive;
-    font-size: 40px;
-    margin: 50px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  margin: 50px;
 }
 
 .formContainer {
-    background-color: rgb(0, 70, 161);
+  background-color: rgb(0, 70, 161);
 }
 
 .addBurgerButton {
-    font-family: 'Crafty Girls', cursive;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
 
-    border-radius: 25px;
-    width: 100%;
-    margin: 0;
-    padding: 10px;
-    background-color: rgb(76, 198, 255);
-    border: none;
+  border-radius: 25px;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(76, 198, 255);
+  border: none;
 }
 
 .addBurgerButton:active {
-   background-color: rgb(76, 198, 255);
+  background-color: rgb(76, 198, 255);
 }
 
 .burgerFooter {
-   background-color: rgb(76, 198, 255);
-   padding: 20px 0;
+  background-color: rgb(76, 198, 255);
+  padding: 20px 0;
+}
+
+.miam_burger {
+  display: block;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-right: auto;
 }
